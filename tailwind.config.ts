@@ -7,6 +7,12 @@ export default {
         "./app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
+        screens: {
+            sm: "375px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+        },
         extend: {
             colors: {
                 background: "var(--background)",
@@ -15,7 +21,7 @@ export default {
             backgroundImage: {
                 bannerImg: "url('/home-banner-01.jpg')",
                 blackOverlay:
-                    "linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)",
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
             },
         },
     },

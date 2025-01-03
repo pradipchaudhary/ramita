@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
     return (
-        <header className="fixed left-0 right-0 z-50 bg-black bg-opacity-50 py-4">
+        <header className="fixed left-0 right-0 z-50  py-4">
             {/* Container for centering content */}
             <div className="container mx-auto flex justify-between items-center">
                 {/* Logo */}
                 <div className="flex items-center space-x-2">
                     <Image
-                        src="/white-logo.png" // Your logo image in the public folder
+                        src="/logo.png" // Your logo image in the public folder
                         alt="Ramita Beautypalor"
-                        width={200}
-                        height={70}
+                        width={180}
+                        height={80}
                     />
                 </div>
 
