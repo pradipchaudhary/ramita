@@ -17,11 +17,15 @@ export default {
             colors: {
                 background: "var(--background)",
                 foreground: "var(--foreground)",
+                navyBlue: "#efefef", // Define your custom fill color
             },
             backgroundImage: {
                 bannerImg: "url('/home-banner-01.jpg')",
                 blackOverlay:
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
+            },
+            strokeWidth: {
+                "2.36": "2.36221", // Define a custom stroke width
             },
         },
     },

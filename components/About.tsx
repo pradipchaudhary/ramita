@@ -49,7 +49,7 @@ export default function About() {
                     <div className="mt-8">
                         <a
                             href="#contact"
-                            className="inline-block bg-pink-500 hover:bg-pink-600 text-white text-lg font-medium py-3 px-6 rounded-lg shadow-lg transition duration-300 uppercase"
+                            className="inline-block bg-pink-500 hover:bg-pink-600 text-white text-lg font-medium py-3 px-6 rounded-lg shadow-lg transition duration-300 "
                         >
                             Know More
                         </a>
