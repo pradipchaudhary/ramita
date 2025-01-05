@@ -1,33 +1,8 @@
-import Image from "next/image";
-
-export default function Logo() {
-    return (
-        <Image src="/logo.png" alt="Logo" width={300} height={100} priority />
-    );
-}
-
-export const Logo1 = () => {
-    return (
-        <div className="flex items-center justify-center h-screen bg-gray-100">
-            <svg
-                className="w-40 h-20 text-gray-800 fill-current"
-                viewBox="0 0 300 130"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <defs></defs>
-                <g transform="matrix(6.7,0,0,6.7,-3.4,-47)">
-                    <path d="M23.2 22.06 q0.2 0.08 0.3 0.27 t-0.02 0.39 t-0.5 0.32 t-1.12 0.04 ..." />
-                </g>
-            </svg>
-        </div>
-    );
-};
-
-export const Logo2 = () => {
+const Logo = () => {
     return (
         <svg
-            width="240"
-            height="93.8330505083392"
+            width="200"
+            height="80"
             viewBox="0 0 370 80.92827200019931"
             className="looka-1j8o68f"
         >
@@ -62,3 +37,5 @@ export const Logo2 = () => {
         </svg>
     );
 };
+
+export default Logo;
