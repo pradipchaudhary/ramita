@@ -2,7 +2,6 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Logo from "./Logo";
-import { Menu } from "lucide-react";
 
 const Header: React.FC = () => {
     const [scrolled, setScrolled] = useState(false);
