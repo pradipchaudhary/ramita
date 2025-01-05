@@ -39,13 +39,7 @@ export default function About() {
                         range of beauty treatments and products to enhance your
                         natural beauty.
                     </p>
-                    {/* <p className="text-lg md:text-xl text-gray-600">
-                        Our mission is to help you look and feel your best,
-                        whether you're looking to improve your overall
-                        appearance or address specific beauty concerns. We
-                        believe that beauty is about more than just appearance;
-                        it's about self-confidence, self-love, and self-care.
-                    </p> */}
+
                     <div className="mt-10">
                         <a
                             href="#contact"

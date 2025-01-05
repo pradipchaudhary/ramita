@@ -1,5 +1,4 @@
 import React from "react";
-import OccasionCard from "./OccasionCard ";
 import ServiceCard from "./ServiceCard";
 
 const services = [

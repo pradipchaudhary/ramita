@@ -1,6 +1,12 @@
 import React from "react";
 
-const ServiceCard = ({ service }) => {
+interface ServiceCardProps {
+    service: {
+        title: string;
+        description: string;
+    };
+}
+const ServiceCard = ({ service }: ServiceCardProps) => {
     return (
         <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:bg-pink-200 cursor-pointer transition duration-300">
             <div className="p-8">
