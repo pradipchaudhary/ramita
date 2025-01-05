@@ -1,11 +1,6 @@
 import Image from "next/image";
 
 export default function About() {
-    const images = [
-        { src: "/image1.jpg", alt: "Hair Styling" },
-        { src: "/image2.jpg", alt: "Makeup" },
-        { src: "/image3.jpg", alt: "Skincare" },
-    ];
     return (
         <section
             id="about"
