@@ -31,6 +31,10 @@ export default {
                 heading1: ['"Philosopher"', "sans-serif"],
             },
         },
+        scale: {
+            "175": "1.75", // 175% scale
+            "200": "2", // 200% scale (double size)
+        },
     },
     plugins: [],
 } satisfies Config;
