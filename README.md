@@ -2,6 +2,8 @@
 
 A modern and responsive website for "Ramita Beauty Parlor," showcasing beauty services, contact information, and more.
 
+Our mission is to help you look and feel your best, whether you're looking to improve your overall appearance or address specific beauty concerns. We believe that beauty is about more than just appearance; it's about self-confidence, self-love, and self-care.
+
 ## Features
 
 -   **Homepage**: Hero section, introduction, and featured services.
@@ -34,3 +36,9 @@ Homepage with an introduction and hero section.
 About page detailing your parlor.
 Services page listing the services offered.
 Contact page with a form, location map, and contact details.
+
+const images = [
+{ src: "/image1.jpg", alt: "Hair Styling" },
+{ src: "/image2.jpg", alt: "Makeup" },
+{ src: "/image3.jpg", alt: "Skincare" },
+];
