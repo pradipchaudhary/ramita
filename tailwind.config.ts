@@ -27,6 +27,9 @@ export default {
             strokeWidth: {
                 "2.36": "2.36221", // Define a custom stroke width
             },
+            fontFamily: {
+                heading1: ['"Philosopher"', "sans-serif"],
+            },
         },
     },
     plugins: [],

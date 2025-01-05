@@ -18,35 +18,35 @@ export default function About() {
                     <Image
                         src="/about.jpg" // Replace with your image URL
                         alt="Ramita Beauty Parlor"
-                        className="w-full h-auto object-cover rounded-lg"
+                        className="w-full h-auto object-cover rounded-lg px-4"
                         width={500}
                         height={500}
                     />
                 </div>
 
                 {/* Content on the right */}
-                <div className="w-full md:w-1/2 md:pl-8">
-                    <p className="text-lg md:text-xl text-pink-500 mb-6">
+                <div className="w-full md:w-1/2 md:pl-8 px-2">
+                    <p className="text-lg md:text-xl text-pink-500 mb-4">
                         Welcome to
                     </p>
-                    <h2 className="text-3xl text-gray-800 md:text-4xl font-bold mb-6">
+                    <h2 className="text-3xl text-gray-800 md:text-4xl font-semibold mb-6">
                         Ramita Beauty Parlor
                     </h2>
-                    <p className="text-lg md:text-xl text-gray-600 mb-6">
+                    <p className="text-lg md:text-xl text-gray-600 mb-6 pr-3">
                         Ramita Beauty Parlor is a premier beauty salon dedicated
                         to providing exceptional beauty services to our clients.
                         With a team of skilled professionals, we offer a wide
                         range of beauty treatments and products to enhance your
                         natural beauty.
                     </p>
-                    <p className="text-lg md:text-xl text-gray-600">
+                    {/* <p className="text-lg md:text-xl text-gray-600">
                         Our mission is to help you look and feel your best,
                         whether you're looking to improve your overall
                         appearance or address specific beauty concerns. We
                         believe that beauty is about more than just appearance;
                         it's about self-confidence, self-love, and self-care.
-                    </p>
-                    <div className="mt-8">
+                    </p> */}
+                    <div className="mt-10">
                         <a
                             href="#contact"
                             className="inline-block bg-pink-500 hover:bg-pink-600 text-white text-lg font-medium py-3 px-6 rounded-lg shadow-lg transition duration-300 "
