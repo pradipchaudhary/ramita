@@ -21,6 +21,9 @@ export default {
             },
             backgroundImage: {
                 bannerImg: "url('/home-banner-01.jpg')",
+                offerImg: "url('/offer-bg.jpg')",
+                offerOverly:
+                    "linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
                 blackOverlay:
                     "linear-gradient(to bottom,rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%)",
             },
