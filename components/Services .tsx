@@ -1,5 +1,6 @@
 import React from "react";
 import OccasionCard from "./OccasionCard ";
+import ServiceCard from "./ServiceCard";
 
 const services = [
     {
@@ -48,18 +49,28 @@ const services = [
 
 const Services = () => {
     return (
-        <div className="bg-[#fafafa] min-h-screen">
+        <section
+            id="services"
+            aria-label="Services offered by Ramita Beauty Parlor"
+            className="bg-[#fafafa] py-16 md:py-20"
+        >
             <div className="max-w-screen-xl mx-auto p-8">
-                <h1 className="text-4xl font-bold text-center mb-8">
-                    Special Services For Every Occasion
-                </h1>
+                <div className="text-center mb-20">
+                    <h1 className="text-4xl text-pink-500 mb-1">
+                        Special Services For Every Occasion
+                    </h1>
+                    <p className="text-md">
+                        List down special services you offer on occasions like
+                        weddings, etc.
+                    </p>
+                </div>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     {services.map((service, index) => (
-                        <OccasionCard key={index} service={service} />
+                        <ServiceCard key={index} service={service} />
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
