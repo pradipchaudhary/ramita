@@ -9,10 +9,14 @@ export default function Hero() {
             <div className="container mx-auto relative z-10 flex flex-col md:flex-row items-center justify-between px-4">
                 {/* Left Side Content */}
                 <div className="text-white md:w-1/2">
+                    <h2 className="text-lg md:text-xl font-semibold mb-3 text-pink-400">
+                        Your Beauty, Our Passion
+                    </h2>
                     <h1 className="text-5xl md:text-5xl lg:text-6xl font-bold mb-4 bg-gradient-to-b from-white to-pink-400 text-transparent bg-clip-text">
                         Ramita Beauty Parlor
                     </h1>
-                    <p className="text-lg md:text-xl text-gray-200 mb-6">
+
+                    <p className="text-lg md:text-xl text-gray-200 mb-6 pr-8">
                         Discover your beauty with our premium services. Book
                         your appointment today!
                     </p>
