@@ -1,7 +1,7 @@
 
 # 🌸 Ramita Beauty Parlor – Official Website
 
-![Ramita Beauty Parlor Banner](ramita-logo.png)
+![Ramita Beauty Parlor Banner](logo.png)
 
 Welcome to the official repository for the **Ramita Beauty Parlor** website. This modern, responsive, and SEO-optimized site serves as a digital presence for Ramita Beauty Parlor, offering a seamless user experience across devices.
 
