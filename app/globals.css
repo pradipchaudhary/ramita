@@ -1,36 +1,61 @@
-/* Google font s */
-@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import "tailwindcss";
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* === Ramita Beauty Parlor Theme Variables === */
+:root {
+  --color-primary: #c08475;
+  /* Rose Gold */
+  --color-primary-light: #f7e2d6;
+  --color-primary-dark: #a66b5e;
+  --color-text: #444;
+}
 
+/* === Global Styles === */
+html,
 body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-family: "Philosopher", serif; */
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  background: linear-gradient(to bottom, var(--color-primary-light), #ffffff);
+  color: var(--color-text);
+  scroll-behavior: smooth;
 }
 
-@layer utilities {
-    .custom-stroke-fill {
-        @apply stroke-black stroke-[2.36221] fill-navyBlue;
-    }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        @apply font-heading1;
-    }
+/* Elegant headings */
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  color: var(--color-primary);
 }
 
-@layer components {
-    .btn {
-        @apply inline-block text-lg font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300;
-    }
-    .btn-primary {
-        @apply inline-block bg-pink-500 hover:bg-pink-600 text-white text-lg font-semibold py-3 px-6 rounded-lg shadow-lg transition duration-300;
-    }
+/* Center utilities */
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Animation */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.6s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.footer {
+  color: #666;
+  font-size: 0.9rem;
+  margin-top: 2rem;
 }

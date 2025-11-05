@@ -1,60 +1,18 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Inter, Playfair_Display } from "next/font/google";
 
-const geistSans = Geist({
-    variable: "--font-geist-sans",
-    subsets: ["latin"],
-});
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: "--font-playfair" });
 
-const geistMono = Geist_Mono({
-    variable: "--font-geist-mono",
-    subsets: ["latin"],
-});
-
-// Metadata for the site
-export const metadata: Metadata = {
-    title: "Ramita Beauty Parlor",
-    description:
-        "Welcome to Ramita Beauty Parlor. Explore our beauty services and book your appointment today.",
-    icons: {
-        icon: "/favicon.ico",
-    },
-    openGraph: {
-        title: "Ramita Beauty Parlor | Home",
-        description:
-            "Welcome to Ramita Beauty Parlor. Explore our beauty services and book your appointment today.",
-        url: "https://yourwebsite.com",
-        images: [
-            {
-                url: "https://yourwebsite.com/hero-bg.jpg",
-                width: 1200,
-                height: 630,
-                alt: "Ramita Beauty Parlor",
-            },
-        ],
-        type: "website",
-    },
-    twitter: {
-        card: "summary_large_image",
-        title: "Ramita Beauty Parlor | Home",
-        description:
-            "Welcome to Ramita Beauty Parlor. Explore our beauty services and book your appointment today.",
-        images: ["https://yourwebsite.com/hero-bg.jpg"],
-    },
+export const metadata = {
+  title: "Ramita Beauty Parlor – Coming Soon",
+  description: "Premier beauty and wellness center in Nepal",
 };
-export default function RootLayout({
-    children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
-    return (
-        <html lang="en">
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
-                {children}
-            </body>
-        </html>
-    );
+
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (
+    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <body>{children}</body>
+    </html>
+  );
 }
